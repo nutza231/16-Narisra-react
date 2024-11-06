@@ -4,44 +4,7 @@ import Admin from './Components/admin';
 import Nav from './Components/navBar';
 
 const Home = () => {
-  const [mockEmployees, setMockEmployees] = useState([
-    {
-      id: 0,
-      name: "mock",
-      lastname: 'mocklastname',
-      position: "Manager"
-    },
-    {
-      id: 1,
-      name: "employee 1",
-      lastname: "em",
-      position: "Engineer"
-    },
-    {
-      id: 2,
-      name: "employee 2",
-      lastname: "lord",
-      position: "Designer"
-    },
-    {
-      id: 3,
-      name: "employee 3",
-      lastname: "aaa",
-      position: "Desigaaner"
-    },
-    {
-      id: 4,
-      name: "employee 4",
-      lastname: "asdfweaa",
-      position: "Desdfssigaaner"
-    },
-    {
-      id: 5,
-      name: "employee 5",
-      lastname: "aa",
-      position: "Daner"
-    },
-  ]);
+  const [mockEmployees, setMockEmployees] = useState([]);
 
   const [selectedSector, setSelectedSector] = useState(''); 
 

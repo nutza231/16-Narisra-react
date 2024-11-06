@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import User from './Components/user';
+import User from "./Components/User";
 import Admin from './Components/admin';
 import Nav from './Components/navBar';
 
